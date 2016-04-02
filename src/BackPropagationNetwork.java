@@ -1,3 +1,5 @@
+import ActivationFunctions.ActivationFunction;
+
 import java.io.*;
 
 public class BackPropagationNetwork extends Network {
@@ -16,8 +18,9 @@ public class BackPropagationNetwork extends Network {
     public BackPropagationNetwork(double []i, double [][]dOutput, int []lSize, int dOutputIndex, ActivationFunction af) {
         super(dOutput[dOutputIndex], i, lSize, af);
         this.desOutputs = dOutput;
-        setOldWeight(oldWeight);
-        setOldWeight(oldWeight1);
+        setOldWeight();
+        oldWeight1 = oldWeight;
+        currWeight = oldWeight;
     }
 
     public BackPropagationNetwork(int inputSize, int []lSize, double [][]dOutput, ActivationFunction af) {
@@ -33,20 +36,16 @@ public class BackPropagationNetwork extends Network {
         GAMMA = 0;
     }
 
-    private double[][] setOldWeight(double [][]w) {
-        w = new double[layersSize.length][];
+    private double[][] setOldWeight() {
+        oldWeight = new double[layersSize.length][];
         for (int j = 0; j < layersSize.length; ++j) {
-            w[j] = new double[layersSize[j] * layers[j].getNeurons()[0].getWeights().length];
+            oldWeight[j] = new double[layersSize[j] * layers[j].getNeurons()[0].getWeights().length];
         }
-        return w;
+        return oldWeight;
     }
 
     public void setEpsilon(double epsilon) {
         this.epsilon = epsilon;
-    }
-
-    public void setAlpha(double a) {
-        ActivationFunctions.alpha = a;
     }
 
     public void setMomentum(double momentum) {
@@ -56,9 +55,9 @@ public class BackPropagationNetwork extends Network {
 
     public void trainNetwork() {
         if (oldWeight1 == null) {
-            oldWeight = setOldWeight(oldWeight);
-            oldWeight1 = setOldWeight(oldWeight1);
-            currWeight = setOldWeight(currWeight);
+            setOldWeight();
+            oldWeight1 = oldWeight;
+            currWeight = oldWeight;
         }
         double e = 0;
         for (int i = 0; i < layers[layers.length - 1].getNeurons().length; ++i) {

@@ -1,3 +1,5 @@
+import ActivationFunctions.ActivationFunction;
+
 public abstract class Neuron implements ActivationFunction {
 
     private double []inputs;

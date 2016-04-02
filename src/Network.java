@@ -1,3 +1,5 @@
+import ActivationFunctions.ActivationFunction;
+
 public class Network {
 
     protected Layer[] layers;

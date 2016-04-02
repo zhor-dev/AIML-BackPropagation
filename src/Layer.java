@@ -1,3 +1,5 @@
+import ActivationFunctions.ActivationFunction;
+
 public class Layer {
 
     private Neuron[] neurons;
