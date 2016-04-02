@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4bcbb1f-114b-4eb9-9b58-be7bfe9260b1" name="Default" comment="Functions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ActivationFunctions/GaussianFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ActivationFunctions/HyperbolicTangentFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ActivationFunctions/SigmoidFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ActivationFunctions/SignumFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ActivationFunctions/SinusFunction.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ActivationFunctions.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ActivationFunction.java" afterPath="$PROJECT_DIR$/src/ActivationFunctions/ActivationFunction.java" />
+    <list default="true" id="c4bcbb1f-114b-4eb9-9b58-be7bfe9260b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackPropagationNetwork.java" afterPath="$PROJECT_DIR$/src/BackPropagationNetwork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Layer.java" afterPath="$PROJECT_DIR$/src/Layer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Network.java" afterPath="$PROJECT_DIR$/src/Network.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Neuron.java" afterPath="$PROJECT_DIR$/src/Neuron.java" />
     </list>
     <ignored path="AIMLBackPropagation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +28,8 @@
       <file leaf-file-name="BackPropagationNetwork.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BackPropagationNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4308094">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.6099476">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#998#999#0" expanded="true" />
@@ -661,20 +649,27 @@
       <updated>1459035095578</updated>
       <workItem from="1459035099436" duration="878000" />
       <workItem from="1459463728328" duration="183000" />
-      <workItem from="1459630539982" duration="2330000" />
+      <workItem from="1459630539982" duration="2707000" />
     </task>
+    <task id="LOCAL-00001" summary="Functions">
+      <created>1459635001939</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459635001939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3391000" />
+    <option name="totallyTimeSpent" value="3768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -867,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackPropagationNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4308094">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.6099476">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#998#999#0" expanded="true" />
